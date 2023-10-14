@@ -12,6 +12,8 @@ catkin_package()
 include_directories(
   ${catkin_INCLUDE_DIRS}
   include/virtual_dc_motor
+  include/virtual_dc_motor_driver
+  include/virtual_dc_motor_controller
 )
 
 catkin_install_python(PROGRAMS
@@ -19,5 +21,9 @@ catkin_install_python(PROGRAMS
 )
 
 add_executable(virtual_dc_motor src/virtual_dc_motor.cpp)
+add_executable(virtual_dc_motor_driver src/virtual_dc_motor_driver.cpp)
+add_executable(virtual_dc_motor_controller src/virtual_dc_motor_controller.cpp)
 
 target_link_libraries(virtual_dc_motor ${catkin_LIBRARIES})
+target_link_libraries(virtual_dc_motor_driver ${catkin_LIBRARIES})
+target_link_libraries(virtual_dc_motor_controller ${catkin_LIBRARIES})
