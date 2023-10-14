@@ -1,0 +1,8 @@
+prefix=/home/agata/Documents/scorpio_workspace/devel
+
+Name: angular_velocity
+Description: Description of angular_velocity
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
