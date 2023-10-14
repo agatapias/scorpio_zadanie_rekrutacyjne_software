@@ -11,7 +11,7 @@ Celem zadania jest stworzenie oprogramowania obsługującego stworzony przez nas
   - [Specyfikacja danych](#specyfikacja-danych)
   - [Uruchamianie symulatora](#uruchamianie-symulatora)
 - [Wskazówki i przydatne linki](#wskazówki-i-przydatne-linki)
-- [UPDATE - Zadanie rekrutacyjne](#update-zadanie-rekrutacyjne)
+- [UPDATE Zadanie rekrutacyjne](#update-zadanie-rekrutacyjne)
 ## Zadania do wykonania 
 W tej części znajdziesz ogólny opis zadań, szczegółowy opis wraz ze specyfikacją techniczną znajdziesz w sekcji [specyfikacja techniczna zadania](#specyfikacja-techniczna-zadania).
 
@@ -59,7 +59,7 @@ roslaunch virtual_dc_motor virtual_dc_motor.launch
 
 **Jeżeli będziesz miał jakiekolwiek wątpliwości i problemy z zadaniem śmiało skontaktuj się z nami! :)**
 
-## UPDATE - Zadanie rekrutacyjne
+## UPDATE Zadanie rekrutacyjne
 
 Nowe pliki napisane zostały w C++. 
 Pliki nowych ROS nodes znajdują się w folderze src/scorpio_package/src, ich headery w src/include/virtual_dc_motor_driver i src/include/virtual_dc_motor_driver.
