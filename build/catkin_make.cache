@@ -1,2 +1,2 @@
-scorpio_package
--DCATKIN_DEVEL_PREFIX=/home/agata/Documents/scorpio_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/agata/Documents/scorpio_workspace/install -G Unix Makefiles
+virtual_dc_motor
+-DCATKIN_DEVEL_PREFIX=/home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/devel -DCMAKE_INSTALL_PREFIX=/home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/install -G Unix Makefiles

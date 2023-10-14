@@ -1,4 +1,4 @@
-prefix=/home/agata/Documents/scorpio_workspace/devel
+prefix=/home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/devel
 
 Name: virtual_dc_motor
 Description: Description of virtual_dc_motor

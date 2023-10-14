@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/agata/Documents/scorpio_workspace/build'
+export PWD='/home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build'

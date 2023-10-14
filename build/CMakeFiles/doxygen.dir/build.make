@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agata/Documents/scorpio_workspace/src
+CMAKE_SOURCE_DIR = /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agata/Documents/scorpio_workspace/build
+CMAKE_BINARY_DIR = /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/agata/Documents/scorpio_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agata/Documents/scorpio_workspace/src /home/agata/Documents/scorpio_workspace/src /home/agata/Documents/scorpio_workspace/build /home/agata/Documents/scorpio_workspace/build /home/agata/Documents/scorpio_workspace/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/src /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/src /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

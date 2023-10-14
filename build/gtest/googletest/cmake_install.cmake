@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agata/Documents/scorpio_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

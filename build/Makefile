@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agata/Documents/scorpio_workspace/src
+CMAKE_SOURCE_DIR = /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agata/Documents/scorpio_workspace/build
+CMAKE_BINARY_DIR = /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agata/Documents/scorpio_workspace/build/CMakeFiles /home/agata/Documents/scorpio_workspace/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build/CMakeFiles /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agata/Documents/scorpio_workspace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agata/Documents/scorpio_zadanie_rekrutacyjne_software/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -294,7 +294,7 @@ virtual_dc_motor_controller: cmake_check_build_system
 
 # fast build rule for target.
 virtual_dc_motor_controller/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/virtual_dc_motor_controller.dir/build.make scorpio_package/CMakeFiles/virtual_dc_motor_controller.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/virtual_dc_motor_controller.dir/build.make virtual_dc_motor/CMakeFiles/virtual_dc_motor_controller.dir/build
 .PHONY : virtual_dc_motor_controller/fast
 
 #=============================================================================
@@ -307,7 +307,7 @@ virtual_dc_motor_driver: cmake_check_build_system
 
 # fast build rule for target.
 virtual_dc_motor_driver/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/virtual_dc_motor_driver.dir/build.make scorpio_package/CMakeFiles/virtual_dc_motor_driver.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/virtual_dc_motor_driver.dir/build.make virtual_dc_motor/CMakeFiles/virtual_dc_motor_driver.dir/build
 .PHONY : virtual_dc_motor_driver/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/std_msgs_generate_messages_py.dir/build.make scorpio_package/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_py.dir/build.make virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make scorpio_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make scorpio_package/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make virtual_dc_motor/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/roscpp_generate_messages_eus.dir/build.make scorpio_package/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/roscpp_generate_messages_eus.dir/build.make virtual_dc_motor/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -372,7 +372,7 @@ virtual_dc_motor: cmake_check_build_system
 
 # fast build rule for target.
 virtual_dc_motor/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/virtual_dc_motor.dir/build.make scorpio_package/CMakeFiles/virtual_dc_motor.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/virtual_dc_motor.dir/build.make virtual_dc_motor/CMakeFiles/virtual_dc_motor.dir/build
 .PHONY : virtual_dc_motor/fast
 
 #=============================================================================
@@ -385,7 +385,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -398,7 +398,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make scorpio_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -411,7 +411,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/roscpp_generate_messages_py.dir/build.make scorpio_package/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/roscpp_generate_messages_py.dir/build.make virtual_dc_motor/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -424,7 +424,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make scorpio_package/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -437,7 +437,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make scorpio_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make virtual_dc_motor/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -450,7 +450,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -463,7 +463,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make scorpio_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make virtual_dc_motor/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -476,7 +476,7 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -489,7 +489,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -502,7 +502,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make scorpio_package/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make virtual_dc_motor/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -515,7 +515,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make scorpio_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make virtual_dc_motor/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Help Target
