@@ -11,7 +11,7 @@ Celem zadania jest stworzenie oprogramowania obsługującego stworzony przez nas
   - [Specyfikacja danych](#specyfikacja-danych)
   - [Uruchamianie symulatora](#uruchamianie-symulatora)
 - [Wskazówki i przydatne linki](#wskazówki-i-przydatne-linki)
-- [UPDATE - Zadanie rekrutacyjne ](#update-zadanie-rekrutacyjne)
+- [UPDATE - Zadanie rekrutacyjne](#update-zadanie-rekrutacyjne)
 ## Zadania do wykonania 
 W tej części znajdziesz ogólny opis zadań, szczegółowy opis wraz ze specyfikacją techniczną znajdziesz w sekcji [specyfikacja techniczna zadania](#specyfikacja-techniczna-zadania).
 
@@ -70,5 +70,3 @@ Plik virtual_dc_motor_controller obsługuje zmianę wysyłanego control signal, 
 Oryginalna struktura paczek została zmieniona i przesunięta do foleru src/ ze względu na utworzenie paczki ROS.
 
 Nody zostały dodane do pliku virtual_dc_motor.launch w celu szybszego uruchamiania programu.
-
-(#update-zadanie-rekrutacyjne).
